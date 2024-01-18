@@ -3,6 +3,7 @@
 
 Contents
 - [Binder](#binder)
+- [Colab](#colab)
 - [The way I Jupyter in class](#the-way-i-jupyter-in-class)
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
@@ -18,15 +19,27 @@ Joshua Maglione
 
 ## Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joshmaglione/CS102-Jupyter/HEAD)
+<a target="_blank" href="https://mybinder.org/v2/gh/joshmaglione/CS102-Jupyter/HEAD">
+  <img src="https://mybinder.org/badge_logo.svg" alt="Binder"/>
+</a>
 
 Launches this repository in a Jupyter Notebook in your browser. Binder takes a while to start up (a few minutes). This way you do not have to install anything on your computer.
 
 ---
 
+## Colab
+
+<a target="_blank" href="https://colab.research.google.com/github/joshmaglione/CS102-Jupyter">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> 
+
+Launches the Jupyter notebooks in your browser using Google's Colab server. I believe you need a Google account to run Colab, so use [Binder](#binder) if you do not want to use or create a Google account. A Google account is *not* necessary for the module. 
+
+---
+
 ## The way I Jupyter in class
 
-I use [VS Code](https://code.visualstudio.com/) together with many extensions within VS Code for Jupyter Notebooks and Python.
+I use [VS Code](https://code.visualstudio.com/) together with many extensions within VS Code for Jupyter Notebooks and Python. There is also [VSCodium](https://vscodium.com/) for those that would prefer to use the version not distributed by Microsoft.
 
 For Python, the extensions I use are 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
