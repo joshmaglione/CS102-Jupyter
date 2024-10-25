@@ -4,7 +4,9 @@
 Contents
 - [Binder](#binder)
 - [Colab](#colab)
+- [On your own machine](#on-your-own-machine)
 - [The way I Jupyter in class](#the-way-i-jupyter-in-class)
+- [Bugs or Typos?](#bugs-or-typos)
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
@@ -37,6 +39,29 @@ Launches the Jupyter notebooks in your browser using Google's Colab server. I be
 
 ---
 
+## On your own machine
+
+If you want to get this up and running on your own machine, then I recommend building a *virtual environment* (via `venv`). This enables you to deviate from the Python your operating system might need. 
+
+You can put the venv wherever you want, but it might be most convenient at the base of this directory. For example you could run the following code in the terminal.
+
+```bash
+python3 -m venv ./.venv
+source ./.venv/bin/activate
+```
+
+Note that you might need to use `python` rather than `python3` depending on your settings. 
+
+Once you have a version of Python that you can install packages with, run the following code to make sure you have all of the necessary Python packages.
+
+```bash
+pip3 install -r requirements.txt
+```
+
+Again, you might need to use `pip` rather than `pip3`.
+
+---
+
 ## The way I Jupyter in class
 
 I use [VS Code](https://code.visualstudio.com/) together with many extensions within VS Code for Jupyter Notebooks and Python. There is also [VSCodium](https://vscodium.com/) for those that would prefer to use the version not distributed by Microsoft.
@@ -53,3 +78,6 @@ I also use [Rainbox CSV](https://marketplace.visualstudio.com/items?itemName=mec
 
 --- 
 
+## Bugs or Typos?
+
+If you find any bugs or typos, please let me know. I also welcome you to create a pull request. 
