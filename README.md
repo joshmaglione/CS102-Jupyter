@@ -5,6 +5,8 @@ Contents
 - [Binder](#binder)
 - [Colab](#colab)
 - [On your own machine](#on-your-own-machine)
+    - [Conda](#conda)
+    - [Manual set up](#manual-set-up)
 - [The way I Jupyter in class](#the-way-i-jupyter-in-class)
 - [Bugs or Typos?](#bugs-or-typos)
 
@@ -25,7 +27,7 @@ Joshua Maglione
   <img src="https://mybinder.org/badge_logo.svg" alt="Binder"/>
 </a>
 
-Launches this repository in a Jupyter Notebook in your browser. Binder takes a while to start up (a few minutes). This way you do not have to install anything on your computer.
+Launches this repository in a Jupyter Notebook in your browser. Sometimes Binder can take a few minutes to start, but it should usually be quick. This way you do not have to install anything on your computer.
 
 ---
 
@@ -41,7 +43,21 @@ Launches the Jupyter notebooks in your browser using Google's Colab server. I be
 
 ## On your own machine
 
-If you want to get this up and running on your own machine, then I recommend building a *virtual environment* (via `venv`). This enables you to deviate from the Python your operating system might need. 
+I mention two ways of installing Python and Jupyter on your machine. This is not an exhaustive list.
+
+You will need to have the repository on your machine as well. A zip file containing the whole repository can be downloaded here:
+[zip file](https://github.com/joshmaglione/CS102-Jupyter/archive/refs/heads/main.zip)
+
+#### Conda
+
+[Conda](https://anaconda.org/anaconda/conda) is a very popular way to get Python and associated software on your own machine without needing to get your hands dirty with the installation process. I have not personally used it, but I know others that have and recommend it.
+
+From within Conda, one installs Python, the required packages (see requirements.txt), and Jupyter Lab.
+
+
+#### Manual set up
+
+If you want to get this up and running on your own machine, then I recommend building a *virtual environment* (via `venv`). This enables you to deviate from the Python your operating system might need.
 
 You can put the venv wherever you want, but it might be most convenient at the base of this directory. For example you could run the following code in the terminal.
 
@@ -59,6 +75,11 @@ pip3 install -r requirements.txt
 ```
 
 Again, you might need to use `pip` rather than `pip3`.
+
+Finally, run the following to start up Jupyter Lab.
+```bash
+jupyter lab
+```
 
 ---
 
