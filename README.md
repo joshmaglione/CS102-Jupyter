@@ -23,7 +23,7 @@ Joshua Maglione
 
 ## Binder
 
-<a target="_blank" href="https://mybinder.org/v2/gh/joshmaglione/CS102-Jupyter/HEAD">
+<a target="_blank" href="https://notebooks.gesis.org/binder/v2/gh/joshmaglione/CS102-Jupyter/HEAD">
   <img src="https://mybinder.org/badge_logo.svg" alt="Binder"/>
 </a>
 
